@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "5c0d24fa-4416-46e9-b330-9ff00c9b993d",
+		"name": "postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23720771"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/users",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzEzOTA2MDU3LCJpYXQiOjE3MTM5MDQyNTcsImp0aSI6ImY2ZmU3OTI4OTlkODQyMGY4ZDczNzUwMWY3MDUwYzdlIiwidXNlcl9pZCI6MTMsInVzZXIiOiJhbmRlcnNvbi5hcmJvbGVkYUBnb3RnZWwub3JnIiwicGVybWlzc2lvbnMiOlt7Im5hbWUiOiJEYXNoYm9hcmQiLCJpZCI6MiwiY2hpbGQiOltdfSx7Im5hbWUiOiJJbnRlcnZpZXdzIiwiaWQiOjQsImNoaWxkIjpbXX0seyJuYW1lIjoiSm9iIFBvc3RpbmciLCJpZCI6NSwiY2hpbGQiOltdfSx7Im5hbWUiOiJNZXNzYWdlcyIsImlkIjo3LCJjaGlsZCI6W119LHsibmFtZSI6IlByb2ZpbGUiLCJpZCI6OCwiY2hpbGQiOltdfSx7Im5hbWUiOiJQcm9maWxlIFZpZXdzIiwiaWQiOjksImNoaWxkIjpbXX0seyJuYW1lIjoiUHJvamVjdHMiLCJpZCI6MTAsImNoaWxkIjpbXX0seyJuYW1lIjoiU2V0dGluZ3MiLCJpZCI6MTMsImNoaWxkIjpbXX0seyJuYW1lIjoiV29yayBIaXN0b3J5IiwiaWQiOjE0LCJjaGlsZCI6W119LHsibmFtZSI6IlJlcG9ydHMiLCJpZCI6MTUsImNoaWxkIjpbXX1dLCJyb2xlIjp7ImlkIjoyLCIgbmFtZSI6IkNhbmRpZGF0ZSJ9fQ.YO6eQ3hwKnylfCRKIPK7MTvh45S-8eCwsXcg6FXVSoE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \"id\":4,\r\n    \"name\": \"el prici\",\r\n    \"birthday\": \"2023-02-10T00:00:00\",\r\n    \"active\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

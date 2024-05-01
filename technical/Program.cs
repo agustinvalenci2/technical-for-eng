@@ -30,7 +30,11 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapGet("/users", async (ApplicationDbContext db) =>
-    await db.Users.ToListAsync());
+{
+    var activeUsers = await db.Users.Where(u => u.Active).ToListAsync();
+    return Results.Ok(activeUsers);
+});
+
 app.MapGet("/users/{id}", async(int id, ApplicationDbContext db) =>
     await db.Users.FindAsync(id)
         is User user
