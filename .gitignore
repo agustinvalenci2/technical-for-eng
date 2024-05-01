@@ -1,3 +1,7 @@
 
 *.cache
 *.vsidx
+/technical/bin/Debug
+/technical/bin
+/technical/bin
+*.exe

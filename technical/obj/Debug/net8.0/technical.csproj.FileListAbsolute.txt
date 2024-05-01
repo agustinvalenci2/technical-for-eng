@@ -343,3 +343,4 @@ C:\Agustin\archivos\pruebas tecnicas\ENG\technical_\technical-for-end\technical\
 C:\Agustin\archivos\pruebas tecnicas\ENG\technical_\technical-for-end\technical\obj\Debug\net8.0\technical.pdb
 C:\Agustin\archivos\pruebas tecnicas\ENG\technical_\technical-for-end\technical\obj\Debug\net8.0\technical.genruntimeconfig.cache
 C:\Agustin\archivos\pruebas tecnicas\ENG\technical_\technical-for-end\technical\obj\Debug\net8.0\ref\technical.dll
+C:\Agustin\archivos\pruebas tecnicas\ENG\technical_\technical-for-end\technical\bin\Debug\net8.0\postman.postman_collection.json

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WWwC25YMx7zHHewq1H+pDA5lB08zX7CB2cn1gmmC9EggiAu6njrWR2mSTixSXnX9t1SGgGZS0VK8icjKGmWtFA==",
+  "dgSpecHash": "VCWSiQGCcMpsfOezMtDS977JP4lVhUBWb9NQPh+uNX6a4+Dvkz1T7pA53o39OQKBfUawMgNpbyKnY0g/anREMQ==",
   "success": true,
-  "projectFilePath": "C:\\Agustin\\archivos\\pruebas tecnicas\\ENG\\technical_\\technical\\technical.csproj",
+  "projectFilePath": "C:\\Agustin\\archivos\\pruebas tecnicas\\ENG\\technical_\\technical-for-end\\technical\\technical.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\valen\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\valen\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
