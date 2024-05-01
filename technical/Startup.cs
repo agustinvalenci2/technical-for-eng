@@ -33,7 +33,6 @@ namespace technical
             }
             else
             {
-                // Configura la página de error para entornos de producción
             }
 
             app.UseRouting();
